@@ -159,10 +159,6 @@ function tama_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'tama_scripts' );
 
-/**
- * Implement the Geo_Collapse_Toolbar class.
- */
-require get_template_directory() . '/classes/collapse-adminbar.php';
 
 /**
  * Implement the Custom Header feature.

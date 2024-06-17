@@ -439,7 +439,7 @@ function tama_the_copyright() {
         ?>
             <div id="copyright-site-info">
                 &copy <?php echo $o['start_year']; ?> — <?php echo date('Y'); ?>
-                <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( htmlentities( $o['holder_text'] ) ); ?>" rel="home">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( htmlentities( $o['holder_text'] ) ); ?>" rel="home">
                 <?php echo htmlentities( $o['holder_text'] ); ?>
                 </a>
             </div>

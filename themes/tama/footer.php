@@ -26,7 +26,7 @@ $phone = $settings_options['header_phone'];
                 </div>
             </div>
             <?php if ( has_nav_menu( 'footer-menu' ) ) : ?>
-            <nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
+            <nav aria-label="<?php esc_attr_e( 'Secondary menu', 'tama' ); ?>" class="footer-navigation">
                 <ul class="footer-navigation-wrapper">
                     <?php
                             wp_nav_menu(
